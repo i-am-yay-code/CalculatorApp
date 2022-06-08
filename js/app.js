@@ -131,7 +131,7 @@ keys.addEventListener('click', event => {
             inputDecimal(value);
             break;
         case 'all-clear':
-            resetCalculator();
+            clearAll();
             break;
         default:
             // check if the key is an integer
